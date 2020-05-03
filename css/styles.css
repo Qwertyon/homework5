@@ -107,32 +107,30 @@ main {
   position: absolute;
 }
 
-
 .slider-button {
-  position: absolute;
   width: 1110px;
   height: 104px;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .button {
-  position: absolute;
   background-color: rgb(78, 198, 171);
   opacity: 0.65;
   cursor: pointer;
 }
 
 .left {
-  left: 0px;
+  float: left;
   width: 104px;
   height: 104px;
   border: 0px;
 }
 
 .right {
-  right: 0px;
+  float: right;
   width: 104px;
   height: 104px;
   border: 0px;
@@ -152,26 +150,24 @@ main {
   opacity: 1;
 }
 
+.container-for-slider-text {
+  box-sizing: content-box;
+  width: 745px;
+  display: block;
+  margin: 0 auto;
+}
+
 .image-title {
-  position: absolute;
-  left: 50%;
-  top: 43%;
-  transform: translate(-50%, -50%);
   font-size: 60px;
   letter-spacing: -1px;
-  line-height: 82px;
+  line-height: 25px;
   color: #ffffff;
   font-family: "Roboto";
   font-weight: 900;
-  width: 742px;
+  margin-bottom: 40px;
 }
 
 .image-text {
-  position: absolute;
-  left: 50%;
-  top: 55%;
-  transform: translate(-50%, -50%);
-  width: 742px;
   font-size: 24px;
   font-weight: 300;
   color: #ffffff;

@@ -1,158 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework5</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>homework5</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-
-<body>
-  <header class="clearfix header">
-    <a class="link-of-logo" href="#">MART</a>
-    <nav>
-      <ul class="site-navigation">
-        <li class="menu-item">
-          <a class="links-of-navigation" href="#">HOME</a>
-        </li>
-        <li class="menu-item">
-          <a class="links-of-navigation" href="#">ABOUT US</a>
-        </li>
-        <li class="menu-item">
-          <a class="links-of-navigation" href="#">PAGE</a>
-        </li>
-        <li class="menu-item">
-          <a class="links-of-navigation" href="#">SHOP</a>
-        </li>
-        <li class="menu-item">
-          <a class="links-of-navigation" href="#">BLOG</a>
-        </li>
-        <li class="menu-item">
-          <a class="links-of-navigation" href="#">CONTACT US</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="slider">
-      <div class="container-for-image">
-        <img class="main-image" src="./img/girls.png" alt="girls-are-walking" />
-      </div>
-      <div class="slider-button">
-        <button class="button left" type="button">
-          <img class="arrow-icon left-arrow" src="./img/icons/angle-left.svg" alt="" />
-        </button>
-        <button class="button right" type="button">
-          <img class="arrow-icon right-arrow" src="./img/icons/angle-right.svg" alt="right-arrow" />
-        </button>
-      </div>
-      <h2 class="image-title">AFFORDABLE PARIS TOURS</h2>
-      <span class="image-text">CITY TOURS / TOUR TICKETS / TOUR GUIDES</span>
-    </section>
-    <section class="container-for-products">
-      <h2 class="title-of-second-container">NEW COLLECTION</h2>
-      <ul class="products clearfix">
-        <li class="item-product">
-          <div class="overlay">
-            <button class="like container-for-icon">
-              <img src="./img/icons/like.svg" alt="like" class="icon" />
-            </button>
-            <button class="cross container-for-icon">
-              <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
-            </button>
-            <button class="clock container-for-icon">
-              <img src="./img/icons/clock.svg" alt="clock" class="icon" />
-            </button>
-            <button class="cart container-for-icon">
-              <img src="./img/icons/cart.svg" alt="cart" class="icon" />
-              <span>ADD TO CART</span>
-            </button>
+  <body>
+    <header class="clearfix header">
+      <a class="link-of-logo" href="#">MART</a>
+      <nav>
+        <ul class="site-navigation">
+          <li class="menu-item">
+            <a class="links-of-navigation" href="#">HOME</a>
+          </li>
+          <li class="menu-item">
+            <a class="links-of-navigation" href="#">ABOUT US</a>
+          </li>
+          <li class="menu-item">
+            <a class="links-of-navigation" href="#">PAGE</a>
+          </li>
+          <li class="menu-item">
+            <a class="links-of-navigation" href="#">SHOP</a>
+          </li>
+          <li class="menu-item">
+            <a class="links-of-navigation" href="#">BLOG</a>
+          </li>
+          <li class="menu-item">
+            <a class="links-of-navigation" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <div class="container-for-image">
+          <img
+            class="main-image"
+            src="./img/girls.png"
+            alt="girls-are-walking"
+          />
+        </div>
+        <div class="slider-button clearfix">
+          <button class="button left" type="button">
+            <img
+              class="arrow-icon left-arrow"
+              src="./img/icons/angle-left.svg"
+              alt="left-arrow"
+            />
+          </button>
+          <button class="button right" type="button">
+            <img
+              class="arrow-icon right-arrow"
+              src="./img/icons/angle-right.svg"
+              alt="right-arrow"
+            />
+          </button>
+          <div class="container-for-slider-text">
+            <h2 class="image-title">AFFORDABLE PARIS TOURS</h2>
+            <span class="image-text"
+              >CITY TOURS / TOUR TICKETS / TOUR GUIDES</span
+            >
           </div>
-          <img class="product-image" src="./img/blue-shirt.png" alt="men-in-blue-shirt" width="255" height="282" />
-          <div class="container-for-product-name">
-            <h3 class="product-name"><a href="#">BLUE TSHIRT</a></h3>
-            <span class="price">26$</span>
-          </div>
-        </li>
-        <li class="item-product">
-          <div class="overlay">
-            <button class="like container-for-icon">
-              <img src="./img/icons/like.svg" alt="like" class="icon" />
-            </button>
-            <button class="cross container-for-icon">
-              <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
-            </button>
-            <button class="clock container-for-icon">
-              <img src="./img/icons/clock.svg" alt="clock" class="icon" />
-            </button>
-            <button class="cart container-for-icon">
-              <img src="./img/icons/cart.svg" alt="cart" class="icon" />
-              <span>ADD TO CART</span>
-            </button>
-          </div>
-          <img class="product-image" src="./img/pink-dress.png" alt="woman-in-pink-dress" width="255" height="282" />
-          <div class="container-for-product-name">
-            <h3 class="product-name"><a href="#">WOMAN SHIRT</a></h3>
-            <span class="price">31$</span>
-          </div>
-        </li>
-        <li class="item-product">
-          <div class="overlay">
-            <button class="like container-for-icon">
-              <img src="./img/icons/like.svg" alt="like" class="icon" />
-            </button>
-            <button class="cross container-for-icon">
-              <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
-            </button>
-            <button class="clock container-for-icon">
-              <img src="./img/icons/clock.svg" alt="clock" class="icon" />
-            </button>
-            <button class="cart container-for-icon">
-              <img src="./img/icons/cart.svg" alt="cart" class="icon" />
-              <span>ADD TO CART</span>
-            </button>
-          </div>
-          <img class="product-image" src="./img/yellow-shirt.png" alt="men-in-yellow-shirt" width="255" height="282" />
-          <div class="container-for-product-name">
-            <h3 class="product-name"><a href="#">YELLOW TSHIRT</a></h3>
-            <span class="price">21$</span>
-          </div>
-        </li>
-        <li class="item-product">
-          <div class="overlay">
-            <button class="like container-for-icon">
-              <img src="./img/icons/like.svg" alt="like" class="icon" />
-            </button>
-            <button class="cross container-for-icon">
-              <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
-            </button>
-            <button class="clock container-for-icon">
-              <img src="./img/icons/clock.svg" alt="clock" class="icon" />
-            </button>
-            <button class="cart container-for-icon">
-              <img src="./img/icons/cart.svg" alt="cart" class="icon" />
-              <span>ADD TO CART</span>
-            </button>
-          </div>
-          <img class="product-image" src="./img/nice-close.png" alt="woman-in-nice-close" width="255" height="282" />
-          <div class="container-for-product-name">
-            <h3 class="product-name"><a href="#">COOL LINCERINE</a></h3>
-            <span class="price">56$</span>
-          </div>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer class="footer">
-    <p class="text-of-footer">
-      All Rights Reserved © Dokan |
-      <a class="footer-link" href="#"> Designed ThemenGraph</a>
-    </p>
-  </footer>
-</body>
-
+        </div>
+      </section>
+      <section class="container-for-products">
+        <h2 class="title-of-second-container">NEW COLLECTION</h2>
+        <ul class="products clearfix">
+          <li class="item-product">
+            <div class="overlay">
+              <button class="like container-for-icon">
+                <img src="./img/icons/like.svg" alt="like" class="icon" />
+              </button>
+              <button class="cross container-for-icon">
+                <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
+              </button>
+              <button class="clock container-for-icon">
+                <img src="./img/icons/clock.svg" alt="clock" class="icon" />
+              </button>
+              <button class="cart container-for-icon">
+                <img src="./img/icons/cart.svg" alt="cart" class="icon" />
+                <span>ADD TO CART</span>
+              </button>
+            </div>
+            <img
+              class="product-image"
+              src="./img/blue-shirt.png"
+              alt="men-in-blue-shirt"
+              width="255"
+              height="282"
+            />
+            <div class="container-for-product-name">
+              <h3 class="product-name"><a href="#">BLUE TSHIRT</a></h3>
+              <span class="price">26$</span>
+            </div>
+          </li>
+          <li class="item-product">
+            <div class="overlay">
+              <button class="like container-for-icon">
+                <img src="./img/icons/like.svg" alt="like" class="icon" />
+              </button>
+              <button class="cross container-for-icon">
+                <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
+              </button>
+              <button class="clock container-for-icon">
+                <img src="./img/icons/clock.svg" alt="clock" class="icon" />
+              </button>
+              <button class="cart container-for-icon">
+                <img src="./img/icons/cart.svg" alt="cart" class="icon" />
+                <span>ADD TO CART</span>
+              </button>
+            </div>
+            <img
+              class="product-image"
+              src="./img/pink-dress.png"
+              alt="woman-in-pink-dress"
+              width="255"
+              height="282"
+            />
+            <div class="container-for-product-name">
+              <h3 class="product-name"><a href="#">WOMAN SHIRT</a></h3>
+              <span class="price">31$</span>
+            </div>
+          </li>
+          <li class="item-product">
+            <div class="overlay">
+              <button class="like container-for-icon">
+                <img src="./img/icons/like.svg" alt="like" class="icon" />
+              </button>
+              <button class="cross container-for-icon">
+                <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
+              </button>
+              <button class="clock container-for-icon">
+                <img src="./img/icons/clock.svg" alt="clock" class="icon" />
+              </button>
+              <button class="cart container-for-icon">
+                <img src="./img/icons/cart.svg" alt="cart" class="icon" />
+                <span>ADD TO CART</span>
+              </button>
+            </div>
+            <img
+              class="product-image"
+              src="./img/yellow-shirt.png"
+              alt="men-in-yellow-shirt"
+              width="255"
+              height="282"
+            />
+            <div class="container-for-product-name">
+              <h3 class="product-name"><a href="#">YELLOW TSHIRT</a></h3>
+              <span class="price">21$</span>
+            </div>
+          </li>
+          <li class="item-product">
+            <div class="overlay">
+              <button class="like container-for-icon">
+                <img src="./img/icons/like.svg" alt="like" class="icon" />
+              </button>
+              <button class="cross container-for-icon">
+                <img src="./img/icons/shuffle.png" alt="cross" class="icon" />
+              </button>
+              <button class="clock container-for-icon">
+                <img src="./img/icons/clock.svg" alt="clock" class="icon" />
+              </button>
+              <button class="cart container-for-icon">
+                <img src="./img/icons/cart.svg" alt="cart" class="icon" />
+                <span>ADD TO CART</span>
+              </button>
+            </div>
+            <img
+              class="product-image"
+              src="./img/nice-close.png"
+              alt="woman-in-nice-close"
+              width="255"
+              height="282"
+            />
+            <div class="container-for-product-name">
+              <h3 class="product-name"><a href="#">COOL LINCERINE</a></h3>
+              <span class="price">56$</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="text-of-footer">
+        All Rights Reserved © Dokan |
+        <a class="footer-link" href="#"> Designed ThemenGraph</a>
+      </p>
+    </footer>
+  </body>
 </html>
